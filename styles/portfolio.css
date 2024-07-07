@@ -1,0 +1,109 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.secondary-bg{
+  background-color: #dabda9;
+}
+.text-primary{
+  color:rgb(218, 66, 11);
+}
+.dark-2{
+  color: #474747;
+}
+.btn-primary{
+  background-color:#FD6E0A ;
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:50px 200px;
+}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+/* header */
+.header{
+  background-image:url(../images/developer.png),url(../images/Acer_Wallpaper_03_3840x2400.jpg) ;
+  background-repeat:no-repeat ;
+  background-position: top left,bottom right;
+}
+/* banner styles */
+.banner-greetings{
+  font-size: 20px;
+  font-weight: 600;
+}
+.banner-title{
+  font-weight: bold;
+  font-size: 45px;
+}
+.banner-description{
+  font-size: 10px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 120px 0px 180px;
+}
+.banner-image{
+  background-color: aliceblue;
+  width: 300px;
+  height: 300px;
+}
+/* main styles */
+main{
+  max-width: 580px;
+  margin: 0 auto;
+}
+/* about styles */
+.about{
+  border-radius: 10px;
+  padding: 30px 50px;
+  text-align: center;
+  margin-top:130px ;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+.item-description{
+  font-weight: 600;
+}
